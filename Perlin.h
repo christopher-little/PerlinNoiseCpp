@@ -1,3 +1,9 @@
+/**
+ * Class Perlin header.
+ *
+ * @author Chris Little
+ */
+
 #ifndef _PERLIN_H_
 #define _PERLIN_H_
 
@@ -7,8 +13,10 @@ public:
 	Perlin();
 	~Perlin();
 
-	// Produce noise value in range (-1.0 .. 1.0); assumes sample coordinates are in range 0.0 .. 1.0.
+	// Generates a Perlin (smoothed) noise value between -1 and 1, at the given 3D position.
 	float noise(float sample_x, float sample_y, float sample_z);
+
+
 private:
 	int *p; // Permutation table
 	// Gradient vectors

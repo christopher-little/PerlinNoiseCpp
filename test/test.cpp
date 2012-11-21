@@ -1,3 +1,9 @@
+/**
+ * Basic test application which prints Perlin noise values to standard output.
+ *
+ * @author Chris Little
+ */
+
 #include <iostream>
 using namespace std;
 

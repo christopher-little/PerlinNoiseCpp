@@ -1,3 +1,9 @@
+/**
+ * Class Perlin implementation.
+ *
+ * @author Chris Little
+ */
+
 #include "Perlin.h"
 
 #include <cstdlib>

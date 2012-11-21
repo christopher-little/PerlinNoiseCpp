@@ -1,2 +1,2 @@
 all:
-	g++ test.cpp ../Perlin.cpp -I.. -o run.exe
+	g++ test.cpp ../Perlin.cpp -I.. -o run_test.exe
