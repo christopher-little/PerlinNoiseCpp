@@ -11,3 +11,5 @@ Where x,y,z are floating point values representing a position in 3D space. For a
 ------------
 
 You're free to use this code as you please. If you come up with ways of improving the implementation, I'm all ears!
+
+&copy; Chris Little 2012
