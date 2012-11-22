@@ -1,7 +1,11 @@
 /**
- * Class Perlin header.
+ * Perlin.h
+ * v. 1.0.0
+ * 
+ * Definition for Perlin class. An instantiated Perlin object can generate smoothed Perlin noise by calling the noise() function.
  *
- * @author Chris Little
+ * Copyright Chris Little 2012
+ * Author: Chris Little
  */
 
 #ifndef _PERLIN_H_

@@ -1,7 +1,10 @@
 /**
+ * test.cpp
+ *
  * Basic test application which prints Perlin noise values to standard output.
  *
- * @author Chris Little
+ * Copyright Chris Little 2012
+ * Author: Chris Little
  */
 
 #include <iostream>
@@ -19,4 +22,6 @@ int main() {
 	{
 		cout << p.noise(float(i)/float(width) - 0.5, 0.25, 0.75) << endl;
 	}
+
+	return 0;
 }

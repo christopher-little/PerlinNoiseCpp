@@ -1,7 +1,8 @@
 /**
- * Class Perlin implementation.
+ * Perlin.cpp
  *
- * @author Chris Little
+ * Copyright Chris Little 2012
+ * Author: Chris Little
  */
 
 #include "Perlin.h"
