@@ -43,7 +43,7 @@ Perlin::~Perlin()
 }
 
 
-float Perlin::noise(float sample_x, float sample_y, float sample_z)
+float Perlin::noise(float sample_x, float sample_y, float sample_z) const
 {
 	// Unit cube vertex coordinates surrounding the sample point
 	int x0 = int(floorf(sample_x));

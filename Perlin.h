@@ -19,7 +19,7 @@ public:
 	~Perlin();
 
 	// Generates a Perlin (smoothed) noise value between -1 and 1, at the given 3D position.
-	float noise(float sample_x, float sample_y, float sample_z);
+	float noise(float sample_x, float sample_y, float sample_z) const;
 
 private:
 	std::vector<int> p; // Permutation table
