@@ -12,7 +12,7 @@
 #include <cmath>
 
 Perlin::Perlin() {
-	srand(time(NULL));
+	srand(static_cast<unsigned int>(time(NULL)));
 
 	p.resize(256);
 	Gx.resize(256);
