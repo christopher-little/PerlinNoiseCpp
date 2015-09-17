@@ -14,10 +14,10 @@
 Perlin::Perlin() {
 	srand(time(NULL));
 
-	p = new int[256];
-	Gx = new float[256];
-	Gy = new float[256];
-	Gz = new float[256];
+	p.resize(256);
+	Gx.resize(256);
+	Gy.resize(256);
+	Gz.resize(256);
 
 	for (int i=0; i<256; ++i) {
 		p[i] = i;
@@ -40,10 +40,6 @@ Perlin::Perlin() {
 
 Perlin::~Perlin()
 {
-	delete p;
-	delete Gx;
-	delete Gy;
-	delete Gz;
 }
 
 
