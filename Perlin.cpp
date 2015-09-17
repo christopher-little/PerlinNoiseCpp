@@ -11,9 +11,8 @@
 #include <ctime>
 #include <cmath>
 
-Perlin::Perlin() {
-	srand(static_cast<unsigned int>(time(NULL)));
-
+Perlin::Perlin()
+{
 	p.resize(256);
 	Gx.resize(256);
 	Gy.resize(256);
