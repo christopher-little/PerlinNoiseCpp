@@ -11,6 +11,7 @@
 #ifndef _PERLIN_H_
 #define _PERLIN_H_
 
+#include <vector>
 
 class Perlin {
 public:
@@ -18,15 +19,15 @@ public:
 	~Perlin();
 
 	// Generates a Perlin (smoothed) noise value between -1 and 1, at the given 3D position.
-	float noise(float sample_x, float sample_y, float sample_z);
-
+	float noise(float sample_x, float sample_y, float sample_z) const;
 
 private:
-	int *p; // Permutation table
+	std::vector<int> p; // Permutation table
+
 	// Gradient vectors
-	float *Gx;
-	float *Gy;
-	float *Gz;
+	std::vector<float> Gx;
+	std::vector<float> Gy;
+	std::vector<float> Gz;
 };
 
 #endif
